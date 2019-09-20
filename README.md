@@ -125,11 +125,69 @@ Lập trình viên viết Code sạch là một nghệ sĩ có thể vẽ lên m
 <br>
 
 ![](src/7.png)<br>
-<strong>Ron Jeffries </strong>(Extreme Programming Installed và Extreme Programming Adventures in C#):  <i>
-Quy tắc của Beck về mã nguồn xếp theo mức độ ưu tiên:
+<strong>Ron Jeffries </strong>(Extreme Programming Installed và Extreme Programming Adventures in C#): <br>
+ <i>Quy tắc của Beck về mã nguồn xếp theo mức độ ưu tiên:
 - Chạy hết các test.
 - Không có sự trùng lặp.
 - Thể hiện các ý tưởng thiết kế vào trong hệ thống.
-  - Giảm số lượng các thực thể như class, method, function,... <br>
+- Giảm số lượng các thực thể như class, method, function,... 
+</i><br>
 Tính rõ nghĩa: Không chỉ là meaningful name, nó còn nằm ở do one thing. <br>
-=> Giảm thiểu sự trùng lặp, do one thing, rõ nghĩa và xây dựng những mô hình trừu tượng hóa nhỏ. </i>
+=> Giảm thiểu sự trùng lặp, do one thing, rõ nghĩa và xây dựng những mô hình trừu tượng hóa nhỏ.
+<br>
+
+![](src/8.png)<br>
+<strong>Ward Cunningham </strong>(Wiki, Fit, eXtreme Programming,): "<i>Bạn có biết bạn vẫn đang làm trên code sạch khi mỗi đoạn code mà bạn đọc đúng như những gì bạn mong đợi. Bạn có thể gọi nó là mã đẹp khi mã đó làm cho ngôn ngữ trông như là ngôn ngữ được tạo ra để giải quyết chính vấn đề đó.</i>"
+<br>
+
+
+=> Bạn đọc mã mà không có bất cứ sự ngạc nhiên nào. Bạn không cần phải tốn nhiều công sức để đọc mã sạch. Bạn đọc nó và nó đúng với những gì bạn mong đợi. Nó rõ ràng, đơn giản và thuyết phục. Module này nối tiếp module khác, nó sẽ cho bạn biết những gì sẽ được viết tiếp theo.<br>
+=> Mã đẹp: Không phải ngôn ngữ được sinh ra để thiết kế giải quyết vấn đề của chúng ta. Vấn đề làm cho ngôn ngữ trông thật đơn giản để cứ như được sinh ra để giải quyết vấn đề này vậy. Và trách nhiệm đó là của chúng ta.
+<br>
+
+![](src/9.png)<br>
+
+### Schools of Thoughts (Các trường phái)
+
+Trong võ đạo thì mỗi người sáng lập là có một trường phái khác nhau, môn đệ mỗi môn phái thì đắm chìm trong lời dạy của người sáng lập, môn đệ sau khi tốt nghiệp thì có thể ra lập võ đường riêng.
+<br>
+
+Không ai trong số các trường phái đó đều hoàn toàn đúng đắn hết.
+<br>
+
+Vì vậy cho nên, cuốn sách này chỉ là kinh nghiệm mà tác giả đã thực hành được, cung cấp những lời dạy cần thiết và mang lại lợi ích nhất định, nó không có nghĩa là đúng tuyệt đối. Những cuốn sách khác của những lập trình viên chuyên nghiệp khác cũng cung cấp những lợi ích khác mà nó mang lại. Và đều có thể học hỏi từ họ những điều tốt.
+<br>
+
+Cuốn sách này do nhóm của tác giả đúc rút từ nhiều năm kinh nghiệm, lặp lại những lần thử nghiệm và các vấn đề gặp phải. Cho nên, tin hay không tùy bạn :v
+<br>
+
+### We Are Authors (Chúng ta là những tác giả)
+
+Chúng ta là những tác giả. Và mỗi tác giả đều có đọc giả của họ. Hãy nhớ, bạn là một tác giả, mỗi dòng code của bạn đều viết cho đọc giả đọc, hãy để cho đọc giả đánh gia sự cố gắng của bạn.
+<br>
+
+Chúng ta liên tục phải đọc lại mã cũ. Việc này chiếm một phần nhất định trong quá trình viết code mới. Thế nên việc làm thế nào để cho mã trở nên dễ đọc cũng thực sự giúp cho việc viết code mới trở nên dễ dàng hơn.
+<br>
+
+<i>Muốn làm cho nhanh, muốn làm cho xong, muốn viết Code dễ hơn, hãy làm cho nó dễ đọc!</i>
+<br>
+
+### The Boy Scout Rule (Luật hướng đạo sinh)
+
+Code cần được giữ sạch theo thời gian. Muốn Code không bị sụt giảm hay xấu đi cần tuân theo luật. Một luật đơng giản của Hướng đạo sinh đó là:
+<br>
+`"Rời khỏi khu căm trại sạch hơn khi bạn đến!"`
+<br>
+
+Làm sạch mã không phải một cái gì đó quá lớn lao, đơn giản chỉ là đổi tên một biến cho tốt hơn, tách một hàm lớn thành những hàm nhỏ hơn, loại bỏ những trùng lặp, dọn dẹp những câu lệnh if phức tạp,...
+<br>
+
+### Prequel and Principles
+
+SOLID: 
+- Single Responsibility Principle (SRP)
+- Open Closed Principle (OCP)
+- Dependency Inversion Principle (DIP)
+<br>
+### Conclusion
+Cuốn sách không hứa sẽ giúp bạn trở thành một nghệ sĩ, một lập trình viên giỏi, nó chỉ có thể cho bạn thấy quá trình để trở thành một lập trình viên giỏi, các thủ thuật, kỹ thuật, và các công cụ họ sử dụng. 
