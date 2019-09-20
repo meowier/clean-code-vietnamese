@@ -190,4 +190,5 @@ SOLID:
 - Dependency Inversion Principle (DIP)
 <br>
 ### Conclusion
+
 Cuốn sách không hứa sẽ giúp bạn trở thành một nghệ sĩ, một lập trình viên giỏi, nó chỉ có thể cho bạn thấy quá trình để trở thành một lập trình viên giỏi, các thủ thuật, kỹ thuật, và các công cụ họ sử dụng. 
